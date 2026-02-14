@@ -1,0 +1,142 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+  scroll-behavior:smooth;
+}
+
+header{
+  position:fixed;
+  width:100%;
+  background:#1e293b;
+  padding:15px 50px;
+  z-index:1000;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+  gap:20px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+nav a:hover{
+  color:#38bdf8;
+}
+
+.logo span{
+  color:#38bdf8;
+}
+
+section{
+  padding:100px 10%;
+  text-align:center;
+}
+
+.home{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.home h1 span{
+  color:#38bdf8;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:10px 20px;
+  background:#38bdf8;
+  color:black;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+.about-container{
+  display:flex;
+  align-items:center;
+  gap:30px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.about img{
+  width:200px;
+  border-radius:50%;
+}
+
+.skill-container{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+}
+
+.skill-box{
+  background:#1e293b;
+  padding:15px 25px;
+  border-radius:8px;
+  transition:0.3s;
+}
+
+.skill-box:hover{
+  background:#38bdf8;
+  color:black;
+}
+
+.project-container{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+}
+
+.project-box{
+  background:#1e293b;
+  padding:20px;
+  border-radius:8px;
+  width:250px;
+}
+
+footer{
+  background:#1e293b;
+  padding:20px;
+}
+.contact-form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  max-width:400px;
+  margin:20px auto;
+}
+
+.contact-form input,
+.contact-form textarea{
+  padding:10px;
+  border:none;
+  border-radius:5px;
+  font-size:14px;
+}
+
+.contact-info{
+  margin-top:20px;
+}
